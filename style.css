@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:poppins, serif;
+    background-color: rgb(255, 232, 201);  
+    color: rgb(218, 159, 155);  
+    scroll-behavior: smooth;
+}
+
+img{
+    border-radius: 5%;
+
+}
+
+.logo {
+    height: 60px; /*tamanho do logo*/
+    border-radius: 30px;
+    box-shadow: none;
+  }
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(218, 159, 155);
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    
+  }
+  
+nav{
+    background-color: rgb(218, 159, 155);
+    display: flex;
+    gap:10px;
+    
+  }
+
+
+  main {
+    margin-top: 100px; /* ajuste de altura do header */
+
+  }
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 232, 201);
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+    opacity: 2
+}
+
+p{
+    text-align: center;
+    color:rgb(218, 159, 155);
+    
+}
+
+.texto-box{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.conteudo{
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin: 40px auto;
+    text-align: justify;
+    max-width: 800%;
+    border-radius: 8px;
+}
+
+.container-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+  
+  .box-servico {
+    background-color: rgb(255, 232, 201);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    transition: 0.3s ease;
+  }
+  
+  .box-servico:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgb(218, 159, 155);
+  }
+
+figure{
+    text-align: center;
+}
+
+figcaption{
+    font-size: 1rem;
+}
+
+h1{
+    padding: 7%;
+    text-align: center;
+    color: rgb(218, 159, 155);
+}
+
+h2{
+    padding: 2%;
+    text-align: center;
+    color: rgb(218, 159, 155);
+}
+
+h3{
+    color: rgb(255, 232, 201);
+    text-align: center;
+}
+
+.paragrafo-padrao{
+    flex: 1; 
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.6rem;
+    justify-content: center;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.imagem-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px; /* espaço entre imagem e texto */
+  }
+  
+  .texto-topo {
+    flex: 1; 
+    max-width: 500px;
+    text-align: left;
+    font-size: 1.6rem;
+  }
+  
+  .imagem-topo-img {
+    width: 500px;
+    height: auto;
+    border-radius: 8px; /* só pra deixar mais suave */
+    box-shadow: 2px 2px 2px rgba(0,0,3,0.3);
+  }
+.imagem-site{
+    border-radius: 8px;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    align-content: justify;
+    
+}
+
+.imagem-topo{
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.grid div{
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+    color: rgb(218, 159, 155);
+}
+
+
+
+.local{
+    text-align: center;
+}
+
+.button{
+        border: 0;
+        border-radius: 8px;
+        font-size: 1.2rem;
+        color: rgb(218, 159, 155);
+        background-color: white;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+    .button:hover{
+        background-color: rgb(218, 159, 155);
+        color: rgb(255, 232, 201);
+        
+    }
+
+    .font-button{
+        font-size: 1rem;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        padding-top: 6px;
+    }
+   
+    li {
+        list-style: none;
+        padding: 0; 
+        margin: 0; 
+      }
+
+      ul{
+        margin-top: 100px;
+      }
+
+      .horario{
+        align-items: center;
+        display: flex;
+        width: 100%;
+      }
+
+      .horario-container {
+        text-align: center;
+        margin: 1px auto;
+        max-width: 500px;
+      }
+
+      .horario-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .redes-sociais {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      
+      .redes-sociais a {
+        font-size: 30px;
+        color: rgb(218, 159, 155);
+        transition: color 0.3s ease;
+      }
+      
+      .redes-sociais a:hover {
+        color: white;
+      }
+
+      .whatsapp {
+        position: fixed; bottom: 50px; right: 50px; z-index: 999; text-align:right;
+      }
+
+      .footer{
+        background: linear-gradient(to bottom,  rgb(255, 232, 201), rgb(218, 159, 155));
+        color: rgb(255, 232, 201);
+        width: 100%;
+        text-align: center;
+        padding: 5%;
+        bottom: 1%;
+        align-items: center;
+    }
