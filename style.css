@@ -93,7 +93,7 @@ p{
   }
   
   .box-servico {
-    background-color: rgb(255, 232, 201);
+    background-color: white;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -287,3 +287,4 @@ h3{
         bottom: 1%;
         align-items: center;
     }
+
